@@ -171,6 +171,34 @@ El archivo `Loging.java` es responsable de gestionar la interfaz gráfica del **
 - **JavaMail API**: Para el envío de correos electrónicos.
 - **Base de datos SQL**: Para almacenar y gestionar información sobre clientes, libros e inventarios.
 
+#CRUD del sistema
+
+Este proyecto presenta el patron CRUD, que nos ayudara a la administracion de libros, clientes, usuarios(cajero y administrador).
+
+# Libro Inventario
+
+![image](https://github.com/user-attachments/assets/8fe5fd9e-56f0-4139-ab15-d2657320a8ea)
+
+# Registro Usuario
+
+![image](https://github.com/user-attachments/assets/c4aaad01-da72-4b43-b7e6-633647a057c6)
+
+# Registro Cliente
+
+![image](https://github.com/user-attachments/assets/89f96fbd-1e85-4bb4-8f5b-0f548efcc4df)
+
+# Registro Usuario
+
+![image](https://github.com/user-attachments/assets/05940771-5c75-4717-8eb9-a44e18ecf9b5)
+
+
+Este proyecto implementa un sistema de gestión de inventario de libros, Usuarios y Clientes mediante una interfaz gráfica en Java. Permite registrar, consultar, editar y eliminar información de libros almacenados en una base de datos. Las principales funcionalidades incluyen:
+
+- **Validación de datos**: Asegura que la información ingresada sea consistente (ISBN, stock, título, autor, etc.).
+- **Roles de usuario**: Restringe accesos a funciones específicas según el tipo de usuario (Cajero, Administrador, etc.).
+- **Operaciones CRUD**: Soporta operaciones para manejar el ciclo de vida de los datos de los libros.
+- **Conexión con base de datos**: Usa JDBC para interactuar con una base de datos SQL.
+
 
 ## Demostración del Proyecto
 
