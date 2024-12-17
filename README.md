@@ -171,6 +171,17 @@ El archivo `Loging.java` es responsable de gestionar la interfaz gráfica del **
 - **JavaMail API**: Para el envío de correos electrónicos.
 - **Base de datos SQL**: Para almacenar y gestionar información sobre clientes, libros e inventarios.
 
+## Ejemplo de compra
+
+Primero elegiremos los libros que tenemos en nuestro inventario, y pongamos atencion en la cantidad de libros que tenemos en el stock de cada libro
+
+![stock antes](https://github.com/user-attachments/assets/c1086ab6-18e7-4bd7-ad63-9bad99a018d7)
+
+Ahora, veremos que se ha enviado el recibo de pago en un pdf al correo del cliente, y tambien veremos que el stock a disminuido, teniendo así una venta registrada
+
+![stock cambiado](https://github.com/user-attachments/assets/903a3d0e-1bac-4549-b293-ab55db4d0b17)
+
+
 #CRUD del sistema
 
 Este proyecto presenta el patron CRUD, que nos ayudara a la administracion de libros, clientes, usuarios(cajero y administrador).
